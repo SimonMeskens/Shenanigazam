@@ -1,0 +1,9 @@
+
+[General]
+	#If enabled, prevents the endermen from teleporting.
+	preventEndermenFromTeleporting = false
+	#If enabled, prevents from picking up and placing blocks.
+	preventEndermenFromGriefing = true
+	#If enabled, stops the endermen from attacking.
+	preventEndermenFromAttacking = false
+

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "biomemakeover:raw_toad",
+        "biomemakeover:cooked_toad",
+        "ecologics:crab_meat",
+        "hexerei:tallow_impurity",
+        "nethersdelight:hoglin_loin",
+        "nethersdelight:hoglin_sirloin",
+        "nethersdelight:strider_slice",
+        "nethersdelight:hoglin_ear"
+    ]
+}

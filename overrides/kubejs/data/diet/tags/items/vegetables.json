@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "biomemakeover:glowshroom_stew",
+        "biomemakeover:bulbus_root",
+        "biomemakeover:roasted_bulbus_root",
+        "ecologics:walnut",
+        "farmersrespite:green_tea_cookie",
+        "immersive_weathering:golden_moss_clump"
+    ]
+}
