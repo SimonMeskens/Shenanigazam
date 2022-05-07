@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+      {
+        "itemRegistryName": "backpack",
+        "type": "sophisticatedbackpacks:item_enabled"
+      }
+    ],
+    "pattern": [
+      "ELE",
+      "NBN",
+      "LLL"
+    ],
+    "key": {
+      "L": {
+        "tag": "forge:leather"
+      },
+      "B": {
+        "item": "bagofholding:iron_bag_of_holding"
+      },
+      "N": {
+        "tag": "forge:nuggets/iron"
+      },
+      "E": {
+        "item": "minecraft:lead"
+      }
+    },
+    "result": {
+      "item": "sophisticatedbackpacks:backpack"
+    }
+  }

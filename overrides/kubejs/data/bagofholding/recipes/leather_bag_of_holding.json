@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SIS",
+      "ICI",
+      "WIW"
+    ],
+    "key": {
+      "C": {
+        "item": "supplementaries:sack"
+      },
+      "S": {
+        "tag": "forge:string"
+      },
+      "I": {
+        "tag": "forge:leather"
+      },
+      "W": {
+        "tag": "minecraft:wool"
+      }
+    },
+    "result": {
+      "item": "bagofholding:leather_bag_of_holding"
+    }
+  }
