@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gobber2:gobber2_glob_nether"
+        },
+        {
+            "item": "gobber2:gobber2_ingot"
+        },
+        {
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "tag": "forge:ingots/terrasteel"
+        }
+    ],
+    "result": {
+        "item": "gobber2:gobber2_ingot_nether",
+        "count": 3
+    }
+}

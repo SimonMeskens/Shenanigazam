@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gobber2:gobber2_glob_end"
+        },
+        {
+            "item": "gobber2:gobber2_ingot_nether"
+        },
+        {
+            "item": "gobber2:gobber2_ingot_nether"
+        },
+        {
+            "item": "ars_nouveau:end_fiber"
+        },
+        {
+            "item": "botania:life_essence"
+        }
+    ],
+    "result": {
+        "item": "gobber2:gobber2_ingot_end",
+        "count": 3
+    }
+}

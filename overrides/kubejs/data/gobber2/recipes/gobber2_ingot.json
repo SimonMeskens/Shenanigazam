@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "gobber2:gobber2_glob"
+        },
+        {
+            "tag": "forge:gems/mana_diamond"
+        },
+        {
+            "tag": "forge:ingots/obsidian"
+        },
+        {
+            "tag": "forge:ingots/silver"
+        }
+    ],
+    "result": {
+        "item": "gobber2:gobber2_ingot",
+        "count": 3
+    }
+}
