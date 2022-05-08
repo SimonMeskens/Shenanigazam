@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "4B190115852CF9E4", title: "Storage" }
+		{ id: "43D4231868B3A07F", title: "Food" }
+		{ id: "19ADCA46536FDA6D", title: "Gear" }
+	]
+}

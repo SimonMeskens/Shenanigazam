@@ -1,0 +1,245 @@
+{
+	id: "41BDB845A30D8804"
+	group: "4B190115852CF9E4"
+	order_index: 0
+	filename: "storage"
+	title: "Personal"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+		Count: 1b
+		tag: {
+			borderColor: 16701501
+			clothColor: 16701501
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Some Sacks"
+			x: -23.0d
+			y: -5.0d
+			subtitle: "Supplementaries"
+			description: ["Stores 9 items, can be put into the world or carried with you."]
+			size: 2.0d
+			id: "5E53F82D62F00DD0"
+			tasks: [{
+				id: "0ABD62A565A77ED2"
+				type: "item"
+				item: "supplementaries:sack"
+			}]
+			rewards: [{
+				id: "392700695EB84D86"
+				type: "item"
+				item: "hexerei:herb_drying_rack"
+			}]
+		}
+		{
+			title: "Strong Shulkers"
+			x: -20.0d
+			y: -5.0d
+			subtitle: "Sophisticated Storage"
+			description: [
+				"The Sophisticated Storage shulker box is like a regular shulker box, but it has some tricks up its sleeve."
+				"Be careful to craft the right item, not the vanilla shulker box."
+			]
+			dependencies: ["5E53F82D62F00DD0"]
+			size: 2.0d
+			id: "070E643B0CC436C0"
+			tasks: [
+				{
+					id: "18C4283AA35AFA02"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:shulker_box"
+						Count: 1b
+						tag: {
+							uuid: [I;
+								-278351969
+								-1616821526
+								-2046876059
+								-480249
+							]
+						}
+					}
+				}
+				{
+					id: "4CB34A130D486A7D"
+					type: "item"
+					item: {
+						id: "sophisticatedstorage:iron_shulker_box"
+						Count: 1b
+						tag: {
+							uuid: [I;
+								52659833
+								-2076098326
+								-1822261447
+								1399780937
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "06A3E803FDF48024"
+				type: "item"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+			}]
+		}
+		{
+			title: "Better Bags"
+			x: -23.0d
+			y: -2.0d
+			subtitle: "Bag of Holding"
+			description: ["Container you can carry with you, upgradeable."]
+			dependencies: ["5E53F82D62F00DD0"]
+			size: 2.0d
+			id: "4CA436DA1617F770"
+			tasks: [
+				{
+					id: "52B322484EDE85EE"
+					type: "item"
+					item: "bagofholding:leather_bag_of_holding"
+				}
+				{
+					id: "3AF87109A1DA1E2E"
+					type: "item"
+					item: "bagofholding:iron_bag_of_holding"
+				}
+			]
+			rewards: [{
+				id: "4058D2440EE17BBD"
+				type: "item"
+				item: "farmersdelight:rope"
+				count: 5
+			}]
+		}
+		{
+			title: "Backpack Blues"
+			x: -20.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "Sophisticated Backpacks"
+			description: ["Backpacks are the ultimate in personal storage. They can be upgraded with all sorts of upgrades, like a crafting table or a furnace."]
+			dependencies: ["4CA436DA1617F770"]
+			size: 3.0d
+			id: "58E3286C1D395368"
+			tasks: [{
+				id: "2085FE9140F383E3"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "2CA5C7D6804B0A31"
+				type: "item"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+			}]
+		}
+		{
+			title: "Just a Jar"
+			x: -17.0d
+			y: -5.0d
+			subtitle: "Hexerei"
+			description: ["Can be placed into the world as well as your inventory, but can only contain one type of item."]
+			size: 2.0d
+			id: "4B17CDED5FBE253C"
+			tasks: [{
+				id: "27DDA62AE8156E64"
+				type: "item"
+				item: {
+					id: "hexerei:herb_jar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3C19208A016361FA"
+				type: "item"
+				item: {
+					id: "hexerei:herb_jar"
+					Count: 1b
+					tag: { }
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Crazy Coffer"
+			x: -17.0d
+			y: -2.0d
+			subtitle: "Hexerei"
+			description: ["Can be put into the world or carried with you. Stores a decent amount of items and is beautifully animated."]
+			size: 2.0d
+			id: "6D4ADD6D02672944"
+			tasks: [{
+				id: "3439FB1FC836EE7F"
+				type: "item"
+				item: {
+					id: "hexerei:coffer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3895E23D39500FC9"
+				type: "item"
+				item: "minecraft:candle"
+			}]
+		}
+		{
+			x: -23.0d
+			y: 1.0d
+			subtitle: "Botania"
+			description: ["Container to store your mystical flowers."]
+			size: 2.0d
+			id: "3B0A04A5AD068F38"
+			tasks: [{
+				id: "57924B80F5A8D235"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+			rewards: [{
+				id: "4DE32FA3C022476C"
+				type: "item"
+				item: "supplementaries:flower_box"
+				count: 3
+			}]
+		}
+		{
+			x: -20.0d
+			y: 1.0d
+			subtitle: "Ars Elemental"
+			description: ["Container to store all your curios."]
+			size: 2.0d
+			id: "3A328A512E9C3DE1"
+			tasks: [{
+				id: "352ABA086952DD47"
+				type: "item"
+				item: "ars_elemental:curio_bag"
+			}]
+			rewards: [{
+				id: "4D896C1BB07E27FA"
+				type: "item"
+				item: "artifacts:whoopee_cushion"
+			}]
+		}
+		{
+			x: -17.0d
+			y: 1.0d
+			subtitle: "Malum"
+			description: ["Container to store your spirits."]
+			size: 2.0d
+			id: "3DBE792D23953D0B"
+			tasks: [{
+				id: "5996A9AAD1CAC6E5"
+				type: "item"
+				item: "malum:spirit_pouch"
+			}]
+			rewards: [{
+				id: "370A0C61DC1FA370"
+				type: "random"
+				table_id: 8093654127162689130L
+			}]
+		}
+	]
+}

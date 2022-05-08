@@ -1,0 +1,88 @@
+{
+	id: "3B4E00D363A24DEF"
+	group: "19ADCA46536FDA6D"
+	order_index: 0
+	filename: "armor"
+	title: "Armor"
+	icon: {
+		id: "minecraft:diamond_chestplate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -11.0d
+			y: -4.0d
+			size: 2.0d
+			id: "7A6FBC9C271E1CE2"
+			tasks: [{
+				id: "1B52984E6FE00C02"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -4.0d
+			size: 2.0d
+			id: "07EB3DF711EAC2B4"
+			tasks: [{
+				id: "1BAF1B1E90E2E646"
+				type: "item"
+				item: {
+					id: "blazegear:brimsteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			subtitle: "Upgraded Netherite"
+			size: 2.0d
+			id: "09CC8F5089B742B2"
+			tasks: [{
+				id: "6BE13A766611225F"
+				type: "item"
+				title: "Any #upgradednetherite:upgraded_netherite_chestplate"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "upgradednetherite:upgraded_netherite_chestplate"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			size: 2.0d
+			id: "57638DCB05CF872B"
+			tasks: [{
+				id: "446132E5B9F0FEE0"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_chestplate_dragon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

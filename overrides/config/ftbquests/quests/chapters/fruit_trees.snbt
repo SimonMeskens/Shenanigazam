@@ -1,0 +1,159 @@
+{
+	id: "477DBCC3CD7088CF"
+	group: "43D4231868B3A07F"
+	order_index: 0
+	filename: "fruit_trees"
+	title: "Fruit Trees"
+	icon: "minecraft:apple"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.0d
+			y: 1.0d
+			size: 2.0d
+			id: "1432D81C5D318CF3"
+			tasks: [{
+				id: "6DC44E4B474445A8"
+				type: "item"
+				item: "fruittrees:cherry_sapling"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			size: 2.0d
+			id: "1DFA9231054CD63B"
+			tasks: [{
+				id: "73C97E144D048A2D"
+				type: "item"
+				item: "fruittrees:apple_sapling"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: [
+				"1432D81C5D318CF3"
+				"1DFA9231054CD63B"
+			]
+			size: 2.0d
+			id: "5E465F98A9AE5E80"
+			tasks: [{
+				id: "12539152D065F1F0"
+				type: "item"
+				item: "fruittrees:redlove_sapling"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			size: 2.0d
+			id: "16DD8749A27F146F"
+			tasks: [{
+				id: "25B9CE28BB99BC5E"
+				type: "item"
+				item: "fruittrees:mandarin_sapling"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			size: 2.0d
+			id: "182ECFCFB93B3119"
+			tasks: [{
+				id: "4CDDF84120F031E7"
+				type: "item"
+				item: "fruittrees:lime_sapling"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			size: 2.0d
+			id: "5BEE17102142D4FC"
+			tasks: [{
+				id: "6BDAB2FD090A0A22"
+				type: "item"
+				item: "fruittrees:citron_sapling"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			dependencies: [
+				"16DD8749A27F146F"
+				"5BEE17102142D4FC"
+			]
+			size: 2.0d
+			id: "6ABEBA65759E32A7"
+			tasks: [{
+				id: "45F1608C154F0D0C"
+				type: "item"
+				item: "fruittrees:pomelo_sapling"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: [
+				"16DD8749A27F146F"
+				"182ECFCFB93B3119"
+			]
+			size: 2.0d
+			id: "49391805EB3CD3D3"
+			tasks: [{
+				id: "6616088F7235E80F"
+				type: "item"
+				item: "fruittrees:orange_sapling"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			dependencies: [
+				"5BEE17102142D4FC"
+				"182ECFCFB93B3119"
+			]
+			size: 2.0d
+			id: "5C2AF7B3D7F903B1"
+			tasks: [{
+				id: "1E149972161C4FC3"
+				type: "item"
+				item: "fruittrees:lemon_sapling"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: [
+				"49391805EB3CD3D3"
+				"5C2AF7B3D7F903B1"
+				"6ABEBA65759E32A7"
+			]
+			size: 2.0d
+			id: "4AD0BC62A87836CA"
+			tasks: [{
+				id: "1AFB0C674EF695E6"
+				type: "item"
+				item: "fruittrees:grapefruit_sapling"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			description: [""]
+			dependencies: [
+				"1DFA9231054CD63B"
+				"1432D81C5D318CF3"
+			]
+			size: 2.0d
+			id: "0BD7A328410083E3"
+			tasks: [{
+				id: "03AC9A6737DEDABF"
+				type: "item"
+				item: "fruittrees:redlove"
+			}]
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+	id: "315EA19A571E64F4"
+	group: "4B190115852CF9E4"
+	order_index: 1
+	filename: "mass"
+	title: "Mass"
+	icon: "minecraft:ender_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Dainty Drawers"
+			icon: "storagedrawers:oak_full_drawers_2"
+			x: -10.0d
+			y: -3.0d
+			subtitle: "Storage Drawers"
+			size: 2.0d
+			id: "62DB19CF30D38C24"
+			tasks: [{
+				id: "108CFBAFE08A2675"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			title: "Sturdy Chests"
+			x: -7.0d
+			y: -3.0d
+			subtitle: "Sophisticated Storage"
+			description: ["Sophisticated Storage chests are upgraded chests that can not only hold more, but also offer new possibilities."]
+			size: 2.0d
+			id: "5AAF6F4655963E34"
+			tasks: [{
+				id: "28BA55CDD5BA89CB"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:iron_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			title: "Based Barrels"
+			x: -4.0d
+			y: -3.0d
+			subtitle: "Sophisticated Storage"
+			description: ["Sophisticated Barrels, like their chest counterpart, can do a lot more than just hold items."]
+			size: 2.0d
+			id: "02B401DCB8AC0F71"
+			tasks: [{
+				id: "1F543A82BC32F864"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:iron_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			title: "Diamond Chest"
+			x: -7.0d
+			y: -0.5d
+			subtitle: "Sophisticated Storage"
+			dependencies: ["5AAF6F4655963E34"]
+			size: 2.0d
+			id: "35BCF3717F207BC5"
+			tasks: [{
+				id: "50E12B7E64B5D238"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:diamond_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			title: "Diamond Barrel"
+			x: -4.0d
+			y: -0.5d
+			subtitle: "Sophisticated Storage"
+			dependencies: ["02B401DCB8AC0F71"]
+			size: 2.0d
+			id: "0C26BF58DC1C4651"
+			tasks: [{
+				id: "77D85AEBA840F63E"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:diamond_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+		}
+		{
+			title: "Classy Cabinet"
+			x: -10.0d
+			y: -0.5d
+			subtitle: "Farmer's Delight"
+			size: 2.0d
+			id: "601D1B0C39A3A70F"
+			tasks: [{
+				id: "0CFB0F49F8A1D0C8"
+				type: "item"
+				item: "farmersdelight:oak_cabinet"
+			}]
+		}
+	]
+}

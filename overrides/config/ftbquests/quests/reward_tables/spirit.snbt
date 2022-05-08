@@ -1,0 +1,16 @@
+{
+	id: "70526F8BF068066A"
+	order_index: 0
+	title: "Spirit"
+	loot_size: 3
+	rewards: [
+		{ item: "malum:sacred_spirit" }
+		{ item: "malum:wicked_spirit" }
+		{ item: "malum:arcane_spirit" }
+		{ item: "malum:eldritch_spirit" }
+		{ item: "malum:earthen_spirit" }
+		{ item: "malum:infernal_spirit" }
+		{ item: "malum:aerial_spirit" }
+		{ item: "malum:aqueous_spirit" }
+	]
+}

@@ -1,0 +1,97 @@
+{
+	id: "7BE10E1E77982A2D"
+	group: ""
+	order_index: 0
+	filename: "books"
+	title: "Books"
+	icon: {
+		id: "occultism:book_of_calling_djinni_manage_machine"
+		Count: 1b
+		tag: {
+			spiritName: "Zorkurakzur"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -23.0d
+			y: -4.0d
+			subtitle: "Roots"
+			size: 2.0d
+			id: "39F51A951A3A22AF"
+			tasks: [{
+				id: "42432EE661D8141D"
+				type: "item"
+				item: "rootsclassic:runic_tablet"
+			}]
+		}
+		{
+			x: -20.0d
+			y: -4.0d
+			subtitle: "Botania"
+			size: 2.0d
+			id: "283134A5FBF3B60A"
+			tasks: [{
+				id: "3CE7156FA65B8596"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -4.0d
+			subtitle: "Malum"
+			size: 2.0d
+			id: "4EC69266A104CCCB"
+			tasks: [{
+				id: "6A741E9ABB9F5F75"
+				type: "item"
+				item: "malum:encyclopedia_arcana"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			subtitle: "Occultism"
+			size: 2.0d
+			id: "71E08DD0870D36B2"
+			tasks: [{
+				id: "47FCDCA562FE9AF9"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -4.0d
+			subtitle: "Ars Nouveau"
+			size: 2.0d
+			id: "0ECCC72FF6E4298E"
+			tasks: [{
+				id: "104451AA919AB862"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			subtitle: "Spirit"
+			description: ["Throw a regular book into a soulfire."]
+			size: 2.0d
+			id: "78AC5BFF4423635D"
+			tasks: [{
+				id: "1E139A1529E7A75E"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "spirit:revenant_enchiridion"
+					}
+				}
+			}]
+		}
+	]
+}
