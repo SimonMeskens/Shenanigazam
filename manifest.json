@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Shenanigazam",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "author": "",
   "files": [
     {
@@ -532,11 +532,6 @@
     {
       "projectID": 495509,
       "fileID": 3745387,
-      "required": true
-    },
-    {
-      "projectID": 517791,
-      "fileID": 3781556,
       "required": true
     },
     {
