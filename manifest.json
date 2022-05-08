@@ -11,7 +11,6 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Shenanigazam",
-  "version": "0.2.2",
   "author": "",
   "files": [
     {
@@ -92,6 +91,11 @@
     {
       "projectID": 484064,
       "fileID": 3768401,
+      "required": true
+    },
+    {
+      "projectID": 574856,
+      "fileID": 3749094,
       "required": true
     },
     {
@@ -340,6 +344,11 @@
       "required": true
     },
     {
+      "projectID": 420735,
+      "fileID": 3642899,
+      "required": true
+    },
+    {
       "projectID": 421850,
       "fileID": 3779088,
       "required": true
@@ -362,6 +371,11 @@
     {
       "projectID": 566700,
       "fileID": 3696813,
+      "required": true
+    },
+    {
+      "projectID": 558905,
+      "fileID": 3771366,
       "required": true
     },
     {
@@ -480,6 +494,11 @@
       "required": true
     },
     {
+      "projectID": 551736,
+      "fileID": 3771454,
+      "required": true
+    },
+    {
       "projectID": 476545,
       "fileID": 3707378,
       "required": true
@@ -552,6 +571,11 @@
     {
       "projectID": 349597,
       "fileID": 3765425,
+      "required": true
+    },
+    {
+      "projectID": 301700,
+      "fileID": 3769229,
       "required": true
     },
     {
