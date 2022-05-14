@@ -32,3 +32,18 @@ onEvent("block.tags", (event) => {
   // Make netherite blocks wither immune
   event.add("minecraft:wither_immune", "minecraft:netherite_block");
 });
+
+onEvent("entity.tags", (event) => {
+  // Remove bosses from being quantum catchable
+  event.add("forbidden_arcanus:quantum_catcher_blacklisted", [
+    "blue_skies:summoner",
+    "blue_skies:alchemist",
+    "blue_skies:starlit_crusher",
+    "blue_skies:arachnarch",
+
+    "cataclysm:ender_golem",
+    "cataclysm:ender_guardian",
+    "cataclysm:ignis",
+    "cataclysm:netherite_monstrosity",
+  ]);
+});
