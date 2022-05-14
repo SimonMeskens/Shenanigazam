@@ -33,7 +33,7 @@ onEvent("block.tags", (event) => {
   event.add("minecraft:wither_immune", "minecraft:netherite_block");
 });
 
-onEvent("entity.tags", (event) => {
+onEvent("entity_type.tags", (event) => {
   // Remove bosses from being quantum catchable
   event.add("forbidden_arcanus:quantum_catcher_blacklisted", [
     "blue_skies:summoner",
