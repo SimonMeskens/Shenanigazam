@@ -11,8 +11,15 @@ onEvent("recipes", (event) => {
   event.remove({ id: "fruittrees:snowflake_banner_pattern" });
 });
 
+onEvent("item.tags", (event) => {
+  // Remove obsidian shards from being an easy skip for obsidian dust
+  event.remove("forge:dusts/obsidian", "morevanillalib:obsidian_shard");
+});
+
 onEvent("block.tags", (event) => {
   // Stop endermen griefing
   event.removeAll("minecraft:enderman_holdable");
+
+  // Make netherite blocks wither immune
   event.add("minecraft:wither_immune", "minecraft:netherite_block");
 });
