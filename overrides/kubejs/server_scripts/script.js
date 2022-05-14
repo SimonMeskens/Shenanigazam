@@ -14,6 +14,9 @@ onEvent("recipes", (event) => {
 onEvent("item.tags", (event) => {
   // Remove obsidian shards from being an easy skip for obsidian dust
   event.remove("forge:dusts/obsidian", "morevanillalib:obsidian_shard");
+
+  // Add seed tags
+  event.add("forge:seeds", ["biomemakeover:rootling_seeds", "druidcraftrg:hemp_seeds", "farmersrespite:tea_seeds"]);
 });
 
 onEvent("block.tags", (event) => {
