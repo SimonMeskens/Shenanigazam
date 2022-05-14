@@ -11,6 +11,12 @@ onEvent("recipes", (event) => {
   event.remove({ id: "fruittrees:snowflake_banner_pattern" });
 });
 
+onEvent("recipes.compostables", (event) => {
+  event.add("minecraft:poisonous_potato", 0.85);
+  event.add("druidcraftrg:hemp_seeds", 0.3);
+  event.add("druidcraftrg:hemp", 0.65);
+});
+
 onEvent("item.tags", (event) => {
   // Remove obsidian shards from being an easy skip for obsidian dust
   event.remove("forge:dusts/obsidian", "morevanillalib:obsidian_shard");
