@@ -1,5 +1,5 @@
 stone; [netherrack>10 + magma_block>2 + nether_quartz_ore>1],
-deepslate; [twigs:bloodstone>10 + magma_block>2]
+deepslate; [twigs:bloodstone>10 + magma_block>2],
 grass; [nether_sprouts>1],
 cobblestone; [blackstone>1],
 grass_block; [crimson_nylium>1],
