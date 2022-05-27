@@ -9,6 +9,20 @@ onEvent("recipes", (event) => {
   // Banner bug
   event.remove({ id: "fruittrees:heart_banner_pattern" });
   event.remove({ id: "fruittrees:snowflake_banner_pattern" });
+
+  // Recipe conflict with Decorative Blocks and Supplementaries
+  event.remove({ id: "decorative_blocks:lattice" });
+  event.shaped(
+    "decorative_blocks:lattice",
+    [
+      "1 1",
+      " 1 ", //
+      "1 1",
+    ],
+    {
+      1: "#forge:rods/wooden"
+    }
+  );
 });
 
 onEvent("recipes.compostables", (event) => {
