@@ -4,7 +4,7 @@ block_growths_enabled = true
 [mossy_blocks]
 	#How likely each block face is to propagate its mossy state to its neighbor.Set to 0 to completely disable mossification
 	#Range: 0.0 ~ 1.0
-	interest_for_face = 0.3
+	interest_for_face = 0
 	#Determines how likely a moss patch is to spread in a non uniform manner allowing more distant blocks to be affected by eachother.In more in depth terms this makes it so a block will be affected by neighbors with WEATHERING state set to trueas opposed to only already mossy blocks or moss source blocks
 	#Range: 0.0 ~ 1.0
 	disjoint_growth_chance = 0.5
@@ -17,7 +17,7 @@ block_growths_enabled = true
 [cracked_blocks]
 	#How likely each block face is to propagate its cracked state to its neighbor.Set to 0 to completely disable cracking
 	#Range: 0.0 ~ 1.0
-	interest_for_face = 0.6
+	interest_for_face = 0
 	#Determines how likely a crack patch is to spread in a non uniform manner allowing more distant blocks to be affected by eachother.In more in depth terms this makes it so a block will be affected by neighbors with WEATHERING state set to trueas opposed to only already cracked blocks or crack source blocks
 	#Range: 0.0 ~ 1.0
 	disjoint_growth_chance = 0.4
