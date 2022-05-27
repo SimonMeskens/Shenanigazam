@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Shenanigazam",
-  "version": "à:é:ç",
+  "version": "0.2.9",
   "author": "",
   "files": [
     {
@@ -445,6 +445,11 @@
       "required": true
     },
     {
+      "projectID": 440845,
+      "fileID": 3679880,
+      "required": true
+    },
+    {
       "projectID": 582327,
       "fileID": 3797990,
       "required": true
@@ -455,8 +460,18 @@
       "required": true
     },
     {
+      "projectID": 243121,
+      "fileID": 3800462,
+      "required": true
+    },
+    {
       "projectID": 536660,
       "fileID": 3777944,
+      "required": true
+    },
+    {
+      "projectID": 250363,
+      "fileID": 3642382,
       "required": true
     },
     {
@@ -507,6 +522,11 @@
     {
       "projectID": 476545,
       "fileID": 3707378,
+      "required": true
+    },
+    {
+      "projectID": 336184,
+      "fileID": 3770286,
       "required": true
     },
     {
@@ -580,6 +600,11 @@
       "required": true
     },
     {
+      "projectID": 508348,
+      "fileID": 3579378,
+      "required": true
+    },
+    {
       "projectID": 248787,
       "fileID": 3686482,
       "required": true
@@ -592,6 +617,11 @@
     {
       "projectID": 230976,
       "fileID": 3693140,
+      "required": true
+    },
+    {
+      "projectID": 320098,
+      "fileID": 3670879,
       "required": true
     },
     {
@@ -617,6 +647,11 @@
     {
       "projectID": 348521,
       "fileID": 3782776,
+      "required": true
+    },
+    {
+      "projectID": 440985,
+      "fileID": 3608109,
       "required": true
     },
     {
@@ -672,6 +707,11 @@
     {
       "projectID": 60028,
       "fileID": 3750710,
+      "required": true
+    },
+    {
+      "projectID": 374736,
+      "fileID": 3706939,
       "required": true
     },
     {
@@ -780,8 +820,18 @@
       "required": true
     },
     {
+      "projectID": 262292,
+      "fileID": 3725801,
+      "required": true
+    },
+    {
       "projectID": 548599,
       "fileID": 3785792,
+      "required": true
+    },
+    {
+      "projectID": 613215,
+      "fileID": 3800466,
       "required": true
     },
     {
